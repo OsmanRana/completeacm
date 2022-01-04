@@ -27,5 +27,22 @@ body{
     background-color: var(--primary);
     color: var(--secondary);
     text-align: center;
-    /* height: 100px; */
+}
+.title {
+    display: inline-block;
+    color: var(--primary);
+    /* border-width: 25%;
+    border-bottom: 5px solid var(--secondary); */
+    
+}
+.card{
+    border: none;
+    padding: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+.card-body {
+    text-align: center;
+}
+.card-title{
+    color: var(--secondary);
 }
