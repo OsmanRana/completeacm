@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+    --primary: #111e4b;
+    --secondary: #90dac1;
+}
+body{
+    font-family: 'Rubik', sans-serif!important;
+}
+.hero-section {
+    background-image: url("header.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+.standout {
+    color: var(--primary);
+    font-weight: 500;
+}
+.btn {
+    background-color: var(--secondary);
+    color: var(--primary);
+    font-weight: 500;
+}
+.sub-text {
+    background-color: var(--primary);
+    color: var(--secondary);
+    text-align: center;
+    /* height: 100px; */
+}
